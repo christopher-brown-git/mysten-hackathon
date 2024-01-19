@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="page">
       <div className="page-header">
-        <p className="title"> Suiweed </p>
+        <p className="title"> Sui Charity </p>
         <ConnectButton />
       </div>
       <div className="spacer"></div>
