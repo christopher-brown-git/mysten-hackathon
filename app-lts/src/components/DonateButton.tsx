@@ -37,7 +37,7 @@ const DonateButton : React.FC<DonateButtonProps>= ({ org_id }) => {
 	return (
 		<div style={{ padding: 20 }}>
             {!currentAccount && (
-                <h2> Connect Wallet to Donate</h2>
+                <h2 className="bg-blue-400 hover:bg-blue-700 text-white font-bold py-10% px-5% m-4 sm:text-md md:text-lg lg:text-xl p-2"> Connect Wallet to Donate</h2>
             )}
 
 			{currentAccount && (
